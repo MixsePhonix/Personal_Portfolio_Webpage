@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  h1,h2,h3,h3,h4,h5,p {
+      margin: 0;
+  }
+  *,
+  *::before,
+  *::after {
+  box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  button {
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  header {
+    width: 100%;
+    background-color: #CD1717;
+    text-align: right;
+    position: fixed;
+  }
+  
+  nav {
+    font-size: 1.5rem;
+    padding: 1.5rem;
+  }
+  
+  .nav__link {
+    color: white;
+    padding-left: 1rem;
+  }
+  
+  .nav__link:hover {
+    color: yellow;
+  }
+  
+  .welcome-section {
+    height: 100vh;
+    background-color: #58353C;
+    padding-top: 20rem;
+    text-align: center;
+  }
+  
+  h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  
+  .welcome-subtitle {
+    color: #D45E08;
+    font-weight: light;
+    font-size: 1.5rem;
+  }
+  
+  .projects {
+    background-color: #1F3261;
+    text-align: center;
+  }
+  
+  h2 {
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-top: 2rem;
+    border-bottom: 2px solid #fff;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+  }
+  
+  .project-img {
+      height: 22rem;
+      width: 100%;
+      object-fit: cover;
+  }
+  
+  .project-text {
+    color: #fff;
+    font-size: 1.5rem;
+    background-color: grey; 
+  
+    padding: 1rem;
+  }
+  
+  .code {
+    color: grey;
+  }
+  
+  .project:hover .code {
+    color: yellow;
+  }
+  
+  .projects-button {
+    border: none;
+    background-color: #58353C;
+    padding:1rem 2rem;
+    margin-bottom: 3rem;
+  
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #fff;
+  
+    transition: background,color .3s;
+    
+  }
+  
+  .projects-button:hover {
+    background-color: #696F7E;
+    color: yellow;
+  }
+  
+  .contact {
+    background-color: #58353C;
+    text-align: center;
+    padding-top: 20rem;
+  }
+  
+  h3 {
+    color: #fff;
+    font-size: 5rem;
+    font-weight: bold;
+  
+  }
+  
+  .contact_subtitle {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 1rem;
+  }
+  
+  .contact__item {
+    color: #fff;
+    
+    padding: 4rem;
+    font-size: 2rem;
+    
+  }
+  
+  p{ 
+    transition: color .5s;
+  }
+  
+  .contact__item p:hover {
+    color: yellow;
+    
+  }
+  
+  .contact__icons {
+    margin-top: 5rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    .contact__item {
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+  }
